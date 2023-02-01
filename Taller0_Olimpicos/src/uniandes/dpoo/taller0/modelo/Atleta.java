@@ -36,7 +36,7 @@ public class Atleta
 	/**
 	 * El país al que representa el atleta
 	 */
-	private Pais pais;
+	private static Pais pais;
 
 	// ************************************************************************
 	// Constructores
@@ -89,7 +89,7 @@ public class Atleta
 	 * 
 	 * @return pais
 	 */
-	public Pais darPais()
+	public static Pais darPais()
 	{
 		return pais;
 	}

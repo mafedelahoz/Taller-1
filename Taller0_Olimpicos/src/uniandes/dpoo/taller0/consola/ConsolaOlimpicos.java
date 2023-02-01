@@ -370,7 +370,7 @@ public class ConsolaOlimpicos
 	private void ejecutarPaisAtleta()
 	{
 		System.out.println("\n" + "País de un atleta" + "\n");
-		String atleta= input("Por favor ingrese el nombre del atleta: ");
+		String atleta= input("Por favor ingrese el nombre del atleta");
 		Pais pais1 = calculadora.PaisAtleta(atleta);
 		if (pais1 == null)
 		{
@@ -379,7 +379,7 @@ public class ConsolaOlimpicos
 		else
 		{
 		
-			{	System.out.println("El atleta pertenece a: "+pais1);
+			{	System.out.println("El atleta pertenece a: "+pais1.darNombre());
 			}
 		}
 		
